@@ -8,7 +8,7 @@ The main idea is simple and rather straightforward. Instead of building a commun
 
 ## Connect to the Marketing API
 
-To do so we have to follow the relevant instructions: [https://developers.facebook.com/docs/marketing-apis/get-started/]
+To do so we have to follow the relevant instructions: https://developers.facebook.com/docs/marketing-apis/get-started/
 
 So all in all you need to 
 1) Sign in to your FB developer account and create a new App. Then after you specify some general info about your App you should get your App's credentials, namely the **App ID** and **App Secret**
