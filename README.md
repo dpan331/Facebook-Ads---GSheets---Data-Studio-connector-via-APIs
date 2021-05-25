@@ -28,7 +28,7 @@ Now if you run the script you should see in the output section the Ad Set spent 
 
 <img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/script_AdSetOutput.JPG" height="600" width="1100">
 
-<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/FBAdsUI_adSet.JPG" height="300" width="800">
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/FBAdsUI_adSet.JPG" height="300" width="1000">
 
 
 ## Connect to the Sheets API
