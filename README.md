@@ -44,7 +44,7 @@ To do so we have to follow the relevant instructions: https://developers.google.
 
 So once I have all the set up and configuration in place, I run the script. I should see the spend fetched from the Facebook Ads' ad set (*2.51*) to appear in the A2 cell of Sheet2 of my Sample Spreadsheet.
 
-<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/sampleSpreadsheet.JPG" height="200" width="1000">
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/sampleSpreadsheet.JPG" height="600" width="1200">
 
 ## Connect your Google Data Studio report to the Google Sheets Spreadsheet
 
