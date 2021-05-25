@@ -33,4 +33,19 @@ Now if you run the script you should see in the output section the Ad Set spent 
 
 ## Connect to the Sheets API
 
+To do so we have to follow the relevant instructions: https://developers.google.com/sheets/api/quickstart/python
+
+1) Create a Google Cloud Platform project in https://console.cloud.google.com/
+2) In your project enable the Google Sheets API.
+3) Create authorization credentials for a desktop application.
+4) Create your **credentials.json** and **token.json** files. *Make sure that these files are in the same folder that your python script exists*.
+5) Pip install the relevant python library *--upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib*.
+6) Create a sample Google Sheets file and get the **Spreadsheet ID** (you can find this number in the URL between the "d/" and "/edit" as shown in the screenshot below) and define the **cell range** you want to throw in data. *Make sure that you replace the XXXXXXXXX in the relevant fields of the python script".
+
+So once I have all the set up and configuration in place, I run the script. I should see the spend fetched from the Facebook Ads' ad set (*2.51*) to appear in the A2 cell of Sheet2 of my Sample Spreadsheet.
+
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/sampleSpreadsheet.JPG" height="200" width="1000">
+
+## Connect your Google Data Studio report to the Google Sheets Spreadsheet
+
 
