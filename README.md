@@ -1,6 +1,8 @@
 # Facebook-Ads---custom-Google-Data-Studio-connector
 In this short guide I explain briefly the basic steps to build a custom Data Studio connector for Facebook Ads using the Marketing API and the Sheets API.
 
+🚸 This script is not maintained, so, in time, certain operations or even the entire script may not be functional.
+
 The main idea is simple and rather straightforward. Instead of building a community data connector we choose a workaround described in the steps below:
 - First, we establish a connection with the Marketing API which gives us access to Facebook Ads data.
 - Then, we establish a connection with Sheets API which gives us access to edit Google Sheets in our account.
@@ -47,5 +49,28 @@ So once I have all the set up and configuration in place, I run the script. I sh
 <img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/sampleSpreadsheet.JPG" height="600" width="1200">
 
 ## Connect your Google Data Studio report to the Google Sheets Spreadsheet
+
+Open https://datastudio.google.com/
+
+and create a Blank Report. 
+
+The UI will prompt you to add a Data Source. Choose "Google Sheets" and specify your sample spreadsheet and relevant sheet. 
+
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/connectionToGDS.JPG" height="600" width="1200">
+
+You are done!
+Now you can visualize your data from Facebook Ads however you want.
+
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/GDSreport.JPG" height="600" width="1200">
+
+## Some points for consideration
+
+This guide is only an introduction to how to build a custom Google Data Studio connector for Facebook Ads using a workaround.
+The Connector is not dynamic, meaning that the user cannot specify i.e. a date range in the Data Studio report and the data source to proceed in requesting those data from the Marketing API and show it in the visualization.
+
+However, depending on how you need your report to be customized you can work on further workarounds.
+A simple one being if for example you need a time series of a campaign's spend, you can schedule the python script to run daily, fetch yesterday's data and append it in a Google Sheets sheet with an additional column that will specify the date. This way you will be able to draft a time series plot in a Data Studio report AND add a date range control in order for the user to pick the historical date range she/he wants.
+
+Imagination, creativity and persistence is the key!
 
 
