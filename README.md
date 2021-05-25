@@ -56,12 +56,12 @@ and create a Blank Report.
 
 The UI will prompt you to add a Data Source. Choose "Google Sheets" and specify your sample spreadsheet and relevant sheet. 
 
-<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/connectionToGDS.JPG" height="600" width="1200">
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/connectionToGDS.JPG" height="600" width="1000">
 
 You are done!
 Now you can visualize your data from Facebook Ads however you want.
 
-<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/GDSreport.JPG" height="600" width="1200">
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/GDSreport.JPG" height="400" width="1200">
 
 ## Some points for consideration
 
