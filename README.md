@@ -1,4 +1,4 @@
-# Facebook-Ads---custom-Google-Data-Studio-connector
+# Facebook-Ads--GSheets--Data-Studio-connector-via-APIs
 In this short guide I explain briefly the basic steps to build a custom Data Studio connector for Facebook Ads using the Marketing API and the Sheets API.
 
 🚸 This script is not maintained, so, in time, certain operations or even the entire script may not be functional.
@@ -70,6 +70,13 @@ The Connector is not dynamic, meaning that the user cannot specify i.e. a date r
 
 However, depending on how you need your report to be customized you can work on further workarounds.
 A simple one being if for example you need a time series of a campaign's spend, you can schedule the python script to run daily, fetch yesterday's data and append it in a Google Sheets sheet with an additional column that will specify the date. This way you will be able to draft a time series plot in a Data Studio report AND add a date range control in order for the user to pick the historical date range she/he wants.
+
+## Facebook-Ads--GSheets-connector-via-HTTP-Request
+
+🤓 Also keep in mind that since Facebook's Graph API is based on HTTP Requests the most straightforward way to connect your Google Sheets spreadsheet to Graph API is by simply making a call to the respective url. 
+Simply go to a cell and input ="https://graph.facebook.com/v11.0/act_YOUR-AD-ACCOUNT-ID/insights?date_preset=last_14d&level=campaign&action_report_time=conversion&fields=campaign_name,campaign_id,impressions,spend,conversions&access_token="&YOUR-ACCESS-TOKEN
+(If you input the url above in your browser and hit enter, you will get your campaign's insights in json format).
+To decouple the data from the json format to a tabular format you can use a custom Apps Script function like the one here https://github.com/bradjasper/ImportJSON.
 
 Imagination, creativity and persistence is the key!
 
