@@ -18,7 +18,7 @@ So all in all you need to
 <img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/app_developersAccount.jpg" height="300" width="1100">
 
 2) Define the permissions you need (for fetching data **ads_read** permission should suffice) and get your Access Token. *Beware that depending on your choice the Access Token has a different expiration date. If you want your Access Token to last longer, you have to choose to proceed with the relevant option. In the current example we chose a short-term access token since the guide is only for educational purposes.*
-<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/facebookGraphAPI_accessToken.JPG" height="300" width="800">
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/facebookGraphAPI_accessToken.jpg" height="300" width="800">
 
 3) Go to your Facebook Ads UI (User Interface) and fetch the **Ad Account ID**.
 
