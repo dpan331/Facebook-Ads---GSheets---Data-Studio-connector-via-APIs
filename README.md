@@ -28,7 +28,7 @@ Finally in the python script that you can find in the current repository, use yo
 
 Now if you run the script you should see in the output section the Ad Set spent for the date range you specified. In my case for the date range *'time_range': {'since':'2021-04-22','until':'2021-04-26'}* I get a spend of *2.51*. In order to be sure that the value I get is correct, I evaluate the output with a quick glance in my Facebook Ads UI>
 
-<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/script_AdSetOutput.JPG" height="550" width="1100">
+<img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/script_AdSetOutput.jpg" height="550" width="1100">
 
 <img src="https://github.com/dpan331/Facebook_Ads---custom_Google_Data_Studio_connector/blob/main/img/FBAdsUI_adSet.JPG" height="200" width="1000">
 
